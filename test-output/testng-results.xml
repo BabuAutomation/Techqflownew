@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T14:42:16 IST" name="Suite" finished-at="2023-07-19T14:42:40 IST" duration-ms="24109">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T14:42:16 IST" name="Chrome Test" finished-at="2023-07-19T14:42:31 IST" duration-ms="15350">
+      <class name="Testng.Paramtrs">
+        <test-method signature="OpenApp(java.lang.String)[pri:1, instance:Testng.Paramtrs@65fb9ffc]" started-at="2023-07-19T14:42:16 IST" name="OpenApp" finished-at="2023-07-19T14:42:26 IST" duration-ms="9528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="Login()[pri:2, instance:Testng.Paramtrs@65fb9ffc]" started-at="2023-07-19T14:42:26 IST" name="Login" finished-at="2023-07-19T14:42:31 IST" depends-on-methods="Testng.Paramtrs.OpenApp" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="search()[pri:3, instance:Testng.Paramtrs@65fb9ffc]" started-at="2023-07-19T14:42:31 IST" name="search" finished-at="2023-07-19T14:42:31 IST" depends-on-methods="Testng.Paramtrs.Login" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="CloseApp()[pri:4, instance:Testng.Paramtrs@65fb9ffc]" started-at="2023-07-19T14:42:31 IST" name="CloseApp" finished-at="2023-07-19T14:42:31 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- Testng.Paramtrs -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-07-19T14:42:16 IST" name="Edge Test" finished-at="2023-07-19T14:42:40 IST" duration-ms="24109">
+      <class name="Testng.Paramtrs">
+        <test-method signature="OpenApp(java.lang.String)[pri:1, instance:Testng.Paramtrs@4e08711f]" started-at="2023-07-19T14:42:16 IST" name="OpenApp" finished-at="2023-07-19T14:42:32 IST" duration-ms="15771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="Login()[pri:2, instance:Testng.Paramtrs@4e08711f]" started-at="2023-07-19T14:42:32 IST" name="Login" finished-at="2023-07-19T14:42:34 IST" depends-on-methods="Testng.Paramtrs.OpenApp" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="search()[pri:3, instance:Testng.Paramtrs@4e08711f]" started-at="2023-07-19T14:42:34 IST" name="search" finished-at="2023-07-19T14:42:34 IST" depends-on-methods="Testng.Paramtrs.Login" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="CloseApp()[pri:4, instance:Testng.Paramtrs@4e08711f]" started-at="2023-07-19T14:42:34 IST" name="CloseApp" finished-at="2023-07-19T14:42:40 IST" duration-ms="6505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- Testng.Paramtrs -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>

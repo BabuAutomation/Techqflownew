@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Edge Test(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Testng.Paramtrs">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="Login"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Testng.Paramtrs -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
