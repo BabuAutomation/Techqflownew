@@ -1,5 +1,7 @@
 package Testng;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +19,7 @@ public class Annotationandpriority {
 	{
 		driver =new ChromeDriver();
 		driver.get("https://www.demo.guru99.com/v4");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	@Test(priority=2, dependsOnMethods= {"OpenApp"})
