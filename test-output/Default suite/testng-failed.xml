@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng.DataProviders">
+      <class name="POMtest.LoginTest">
         <methods>
-          <include name="OpenApp"/>
-          <include name="Login" invocation-numbers="0 1"/>
+          <include name="NewCustomer"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- Testng.DataProviders -->
+      </class> <!-- POMtest.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

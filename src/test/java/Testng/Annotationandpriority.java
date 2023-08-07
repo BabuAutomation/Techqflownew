@@ -28,7 +28,7 @@ public class Annotationandpriority {
 		driver.findElement(By.name("uid")).sendKeys("mngr515501");
 		driver.findElement(By.name("password")).sendKeys("ydaruhy");
 		driver.findElement(By.name("btnLogin")).click();
-		driver.switchTo().alert().accept();
+		
 	}
 	
 		
