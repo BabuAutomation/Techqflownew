@@ -6,6 +6,7 @@
       <class name="POMtest.LoginTest">
         <methods>
           <include name="NewCustomer"/>
+          <include name="Title"/>
           <include name="Setup"/>
         </methods>
       </class> <!-- POMtest.LoginTest -->

@@ -36,8 +36,8 @@ public class LoginPage {
 	
 	public void Login()
 	{
-		driver.findElement(UserName).sendKeys("mngr519427");
-		driver.findElement(Password).sendKeys("pypedAg");
+		driver.findElement(UserName).sendKeys("mngr526441");
+		driver.findElement(Password).sendKeys("unUmUbE");
 		driver.findElement(Submit).click();
 	}
 

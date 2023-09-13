@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-04T10:01:49 IST" name="Default suite" finished-at="2023-08-04T10:02:08 IST" duration-ms="19273">
+  <suite started-at="2023-09-07T13:49:43 IST" name="Default suite" finished-at="2023-09-07T13:49:56 IST" duration-ms="13008">
     <groups>
     </groups>
-    <test started-at="2023-08-04T10:01:49 IST" name="Default test" finished-at="2023-08-04T10:02:08 IST" duration-ms="19273">
+    <test started-at="2023-09-07T13:49:43 IST" name="Default test" finished-at="2023-09-07T13:49:56 IST" duration-ms="13008">
       <class name="POMtest.LoginTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:POMtest.LoginTest@6025e1b6]" started-at="2023-08-04T10:01:49 IST" name="Setup" finished-at="2023-08-04T10:01:57 IST" duration-ms="8441" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:POMtest.LoginTest@10683d9d]" started-at="2023-09-07T13:49:43 IST" name="Setup" finished-at="2023-09-07T13:49:49 IST" duration-ms="6696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Header()[pri:1, instance:POMtest.LoginTest@6025e1b6]" started-at="2023-08-04T10:01:57 IST" name="Header" finished-at="2023-08-04T10:01:57 IST" duration-ms="163" status="PASS">
+        <test-method signature="Header()[pri:1, instance:POMtest.LoginTest@10683d9d]" started-at="2023-09-07T13:49:49 IST" name="Header" finished-at="2023-09-07T13:49:50 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header -->
-        <test-method signature="Login()[pri:2, instance:POMtest.LoginTest@6025e1b6]" started-at="2023-08-04T10:01:57 IST" name="Login" finished-at="2023-08-04T10:02:00 IST" duration-ms="2558" status="PASS">
+        <test-method signature="Login()[pri:2, instance:POMtest.LoginTest@10683d9d]" started-at="2023-09-07T13:49:50 IST" name="Login" finished-at="2023-09-07T13:49:52 IST" duration-ms="2022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Title()[pri:3, instance:POMtest.LoginTest@6025e1b6]" started-at="2023-08-04T10:02:00 IST" name="Title" finished-at="2023-08-04T10:02:01 IST" duration-ms="1402" status="PASS">
+        <test-method signature="Title()[pri:3, instance:POMtest.LoginTest@10683d9d]" started-at="2023-09-07T13:49:52 IST" name="Title" finished-at="2023-09-07T13:49:52 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Title -->
-        <test-method signature="NewCustomer()[pri:4, instance:POMtest.LoginTest@6025e1b6]" started-at="2023-08-04T10:02:01 IST" name="NewCustomer" finished-at="2023-08-04T10:02:08 IST" duration-ms="6498" status="PASS">
+        <test-method signature="NewCustomer()[pri:4, instance:POMtest.LoginTest@10683d9d]" started-at="2023-09-07T13:49:52 IST" name="NewCustomer" finished-at="2023-09-07T13:49:56 IST" duration-ms="3987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewCustomer -->
